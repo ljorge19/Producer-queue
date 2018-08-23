@@ -23,7 +23,8 @@ public class Main {
         
         try {
             ctx.addRoutes(routeBuilder);
-            ctx.start();
+            ctx.start(); 
+            System.out.println("mensagem enviada");
             Thread.sleep(5 * 60 * 1000);
             ctx.stop();
         }
